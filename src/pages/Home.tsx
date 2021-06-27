@@ -54,9 +54,12 @@ export function Home() {
         <img
           src={illustrationImg}
           alt="Ilustração simbolizando perguntas e respostas"
+          className="responsive-image"
         />
-        <strong>Crie salas de Q&amp;A ao-vivo</strong>
-        <p>Tire as dúvidas da sua audiência em tempo-real</p>
+        <strong className="home-text">Crie salas de Q&amp;A ao-vivo</strong>
+        <p className="home-text-small">
+          Tire as dúvidas da sua audiência em tempo-real
+        </p>
       </aside>
       <main>
         <div className="main-content">

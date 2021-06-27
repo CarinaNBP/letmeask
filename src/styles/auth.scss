@@ -140,3 +140,93 @@
     }
   }
 }
+@media (min-width: 2560px) {
+  #page-auth .home-text {
+    font-size: 65px;
+  }
+
+  #page-auth .home-text-small {
+    font-size: 45px;
+    margin-top: 50px;
+  }
+  #page-auth aside img {
+    max-width: 620px;
+  }
+  #page-auth .main-content {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    display: inline;
+    align-content: flex-end;
+    margin-top: 20px;
+    height: 50%;
+  }
+  #page-auth {
+    display: inline;
+    align-content: flex-start;
+    height: 50%;
+
+    aside {
+      background-image: url("../assets/images/illustration.svg");
+      background-repeat: no-repeat;
+      // background-clip: ;
+      background-size: cover;
+      background-size: 80%;
+      background-position-x: center;
+
+      img.responsive-image {
+        display: none;
+      }
+
+      strong {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  main {
+    display: inline;
+    align-content: flex-end;
+    margin-top: 20px;
+    // height: 50%;
+  }
+  #page-auth {
+    display: inline;
+    align-content: flex-start;
+    // height: 50vh;
+  }
+}
+
+@media (max-width: 320px) {
+  #page-auth {
+    aside {
+      flex: 2;
+      padding: 85px 35px;
+      strong {
+        font-size: 17px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    .main-content img {
+      width: 130px;
+    }
+    .create-room {
+      height: 40px;
+      width: 200px;
+      border-radius: 6px;
+      font-size: 12px;
+
+      img {
+        width: 20px;
+      }
+    }
+  }
+}

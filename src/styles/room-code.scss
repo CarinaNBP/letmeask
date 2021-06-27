@@ -28,3 +28,9 @@
     font-weight: 500;
   }
 }
+
+@media (max-width: 425px) {
+  .room-code button {
+    max-width: 15px;
+  }
+}

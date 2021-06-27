@@ -109,3 +109,36 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  html {
+    margin: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content img {
+    max-width: 75px;
+  }
+  .content button {
+    width: 180px;
+    height: 35px;
+  }
+  #page-room main .room-title h1 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .content img {
+    max-width: 75px;
+  }
+  .content button {
+    width: 150px;
+    height: 30px;
+  }
+
+  #page-room main .room-title h1 {
+    font-size: 18px;
+  }
+}
